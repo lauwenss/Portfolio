@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e1;
+    color: #333;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #f7f3e1;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+
+}
+
+header .logo img {
+    height: 50px;
+    
+}
+
+header .logo span {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #f7f3e1;
+}
+
+header nav ul li {
+    margin-left: 70px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-style: 'helvetica';
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.text-content {
+    max-width: 800px;
+    flex: 1;
+    padding-top: 40px;
+}
+
+.text-content h1 {
+    padding-top: 145px; 
+    font-family: 'Oleo Script', cursive;
+    color: black;
+    font-size: 100px;
+    line-height: 1.2;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.text-content p {
+    margin: 20px 0;
+    margin-left: 50px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e57373;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 695px;
+}
+
+.linkedin-button:hover {
+    background-color: #d32f2f;
+}
+
+.image-content {
+    position: relative;
+    width: 900px;
+}
+
+.image-content img {
+    width: 100%;
+    
+}
+
+.project h2 {
+    margin: 160px 0;
+    font-family: Helvetica, sans-serif;
+    margin-left: 100px;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+
+.project1-content {
+    max-width: 1670px;
+    margin-left: 120px;
+    flex: 1;
+}
+
+.project p {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    margin: 40px 0;
+    text-align: justify;
+}
+
+.project h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Helvetica";
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    margin-top: 100px;
+    letter-spacing: 9px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 120px;
+}
+
+.project-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact section styles */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    height: 100vh;
+    background-color: #f7f3e1;
+    position: relative;
+    height: auto;
+}
+
+.contact-section h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Helvetica";
+    margin-bottom: 100px;
+    color: rgb(22, 22, 22);
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 9px;
+}
+
+.contact-details {
+    margin-top: 150px;
+    margin-left: 8px;
+}
+
+.contact-details h2{
+    font-size: 50px;
+    font-family: "Helvetica";
+    color: rgb(22, 22, 22);
+    margin-top: 80px;
+    margin-bottom: 15px; 
+}
+
+.contact-details p {
+    font-family: "Helvetica";
+    color: rgb(22, 22, 22);
+    font-size: 32px;
+    margin-top: 0; /* Remove extra spacing above the paragraph */
+    margin-bottom: 20px; /* Adjust spacing between paragraphs */
+}
+
+/* Social icons styles */
+.social-icons {
+    display: flex;
+    gap: 36px;
+    margin-top: -65px;
+    margin-left: 100px;
+    justify-content: flex-end; /* Align icons to the right */
+    margin-right: 100px;
+}
+
+.social-icons img {
+    width: 64x;
+    height: 64px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.cat{
+    position: absolute;
+    bottom: -170px;
+    right: 0px;
+    width: 200px;  
+    overflow: hidden;
+}
